@@ -1,0 +1,11 @@
+a {
+     text-decoration:none ; /*esse comando é utilizado para tirar aquela barrinha que fica em baixo dos links criados com href */
+}
+
+#link-topo{
+    padding: 50px;  /*padding é utilizado para aumentar 50px do tamanho do meu butao inicio */
+     position: fixed; /* position fixed para ele ficar fixado na pagina */
+     right: 10px;     /*right ele quer que fique 10px de distancia da direita  */
+     bottom: 10px;      /* bottom ele quer que fique 10px de distancia do bottom */
+   
+}
