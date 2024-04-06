@@ -1,0 +1,109 @@
+    /* CSS DIV */
+
+    #card1{
+        background-color: black;
+         
+        margin-top: 0px;
+    }
+    
+    .inicio{
+    background-color:#000000;
+    
+    padding:30px 10px;
+    border-radius:10px;
+    border:1px solid #000000;
+    width: auto;
+    
+    }  
+
+    /* CSS HREF */
+
+    a {
+        text-decoration:none ; /*esse comando é utilizado para tirar aquela barrinha que fica em baixo dos links criados com href */
+   }
+   
+   #link-topo{
+       padding: 50px;  /*padding é utilizado para aumentar 50px do tamanho do meu butao inicio */
+        position: fixed; /* position fixed para ele ficar fixado na pagina */
+        right: 10px;     /*right ele quer que fique 10px de distancia da direita  */
+        bottom: 10px;      /* bottom ele quer que fique 10px de distancia do bottom */
+      
+   }
+
+    /* CSS PORTFOLIO */
+
+    body{
+        background-color: #000000;  
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        
+        
+    }
+    
+    
+    .container-fluid{
+        background-color: #000000;
+        
+    }
+    
+    .div2{
+        float: right;
+    }
+    
+    .inicio{
+        background-color: black;
+    }
+
+
+    /* TODAS AS MINHA SECTION . CSS */
+
+
+.page1 {
+    background-image: url(PF.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+}
+
+.page2 {
+    background-image: url(RC.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.page3 {
+    background-image: url(SM.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.page4 {
+
+    background-image: url(FP.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.interface {
+
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
